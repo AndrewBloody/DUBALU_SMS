@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Dubalu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-07-15 12:39-0600\n"
+"Last-Translator: Omar <omar.aburto@gmail.com>\n"
+"Language-Team: Dubalu <contact@dubalu.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: admin.py:51 admin.py:58 models.py:27 models.py:319
+msgid "state"
+msgstr "estado"
+
+#: admin.py:65 models.py:328
+msgid "ETA"
+msgstr "ETA"
+
+#: admin.py:72
+msgid "when"
+msgstr "cuando"
+
+#: admin.py:79 models.py:198 models.py:323
+msgid "name"
+msgstr "nombre"
+
+#: admin.py:113
+msgid "Task detail"
+msgstr "Detalle de tarea"
+
+#: admin.py:114
+msgid "Tasks"
+msgstr "Tareas"
+
+#: admin.py:129 models.py:321
+msgid "UUID"
+msgstr "UUID"
+
+#: admin.py:153
+msgid "Revoke selected tasks"
+msgstr "Revocar tareas seleccionadas"
+
+#: admin.py:159
+msgid "Terminate selected tasks"
+msgstr "Terminar tareas seleccionadas"
+
+#: admin.py:165
+msgid "Kill selected tasks"
+msgstr "Matar tareas seleccionadas"
+
+#: admin.py:172 templates/djcelery/confirm_rate_limit.html:9
+msgid "Rate limit selected tasks"
+msgstr "Calificar limite de tareas seleccionadas"
+
+#: admin.py:185
+msgid "Rate limit selection"
+msgstr "Calificar seleccion limite"
+
+#: admin.py:210
+msgid "Node detail"
+msgstr "Detalle del nodo"
+
+#: admin.py:211
+msgid "Worker Nodes"
+msgstr "Nodos del Trabajador"
+
+#: admin.py:218
+msgid "Shutdown selected worker nodes"
+msgstr "Apagar los nodos del trabajador seleccionados"
+
+#: admin.py:222
+msgid "Enable event mode for selected nodes."
+msgstr "Activar modo evento para nodos seleccionados."
+
+#: admin.py:227
+msgid "Disable event mode for selected nodes."
+msgstr "Desactivar modo evento para los nodos seleccionados."
+
+#: admin.py:257
+msgid "Task (registered)"
+msgstr "Tarea (registrada)"
+
+#: admin.py:259
+msgid "Task (custom)"
+msgstr "Tarea (personalizada)"
+
+#: admin.py:271
+msgid "Need name of task"
+msgstr "Se necesita el nombre de la tarea"
+
+#: admin.py:282
+#, python-format
+msgid "Unable to parse JSON: %s"
+msgstr "Imposible de analizar JSON: %s"
+
+#: humanize.py:10
+#, python-brace-format
+msgid "{num} year ago"
+msgstr "hace {num} año"
+
+#: humanize.py:10
+#, python-brace-format
+msgid "{num} years ago"
+msgstr "hace {num} años"
+
+#: humanize.py:14
+#, python-brace-format
+msgid "{num} month ago"
+msgstr "hace {num} mes"
+
+#: humanize.py:14
+#, python-brace-format
+msgid "{num} months ago"
+msgstr "hace {num} meses"
+
+#: humanize.py:18
+#, python-brace-format
+msgid "{num} week ago"
+msgstr "hace {num} semana"
+
+#: humanize.py:18
+#, python-brace-format
+msgid "{num} weeks ago"
+msgstr "hace {num} semanas"
+
+#: humanize.py:22
+#, python-brace-format
+msgid "{num} day ago"
+msgstr "hace {num} dia"
+
+#: humanize.py:22
+#, python-brace-format
+msgid "{num} days ago"
+msgstr "hace {num} dias"
+
+#: humanize.py:56 humanize.py:71
+msgid "just now"
+msgstr "hace unos momentos"
+
+#: humanize.py:62
+#, python-brace-format
+msgid "{minutes} minute ago"
+msgstr "hace {minutes} minuto"
+
+#: humanize.py:63
+#, python-brace-format
+msgid "{minutes} minutes ago"
+msgstr "hace {minutes} minutos"
+
+#: humanize.py:68
+#, python-brace-format
+msgid "{seconds} second ago"
+msgstr "hace {seconds} segundo"
+
+#: humanize.py:69
+#, python-brace-format
+msgid "{seconds} seconds ago"
+msgstr "hace {seconds} segundos"
+
+#: humanize.py:74
+#, python-brace-format
+msgid "{hours} hour ago"
+msgstr "hace {hours} hora"
+
+#: humanize.py:74
+#, python-brace-format
+msgid "{hours} hours ago"
+msgstr "hace {hours} horas"
+
+#: humanize.py:78
+#, python-brace-format
+msgid "yesterday at {time}"
+msgstr "ayer a las {time}"
+
+#: models.py:25
+msgid "task id"
+msgstr "id de tarea"
+
+#: models.py:31
+msgid "done at"
+msgstr "hecho en"
+
+#: models.py:32 models.py:331
+msgid "traceback"
+msgstr "rastrear"
+
+#: models.py:43
+msgid "task state"
+msgstr "estado de tarea"
+
+#: models.py:44
+msgid "task states"
+msgstr "estados de tarea"
+
+#: models.py:61
+msgid "group id"
+msgstr "id de grupo"
+
+#: models.py:63
+msgid "created at"
+msgstr "creado en"
+
+#: models.py:70
+msgid "saved group result"
+msgstr "resultado de grupo guardado"
+
+#: models.py:71
+msgid "saved group results"
+msgstr "resultados de grupo guardados"
+
+#: models.py:83
+msgid "Days"
+msgstr "Dias"
+
+#: models.py:84
+msgid "Hours"
+msgstr "Horas"
+
+#: models.py:85
+msgid "Minutes"
+msgstr "Minutos"
+
+#: models.py:86
+msgid "Seconds"
+msgstr "Segundos"
+
+#: models.py:87
+msgid "Microseconds"
+msgstr "Microsegundos"
+
+#: models.py:91
+msgid "every"
+msgstr "cada"
+
+#: models.py:93
+msgid "period"
+msgstr "período"
+
+#: models.py:97 models.py:204
+msgid "interval"
+msgstr "intervalo"
+
+#: models.py:98
+msgid "intervals"
+msgstr "intervalos"
+
+#: models.py:118
+#, python-brace-format
+msgid "every {0.period_singular}"
+msgstr "cada {0.period_singular}"
+
+#: models.py:119
+#, python-brace-format
+msgid "every {0.every} {0.period}"
+msgstr "cada {0.every} {0.period}"
+
+#: models.py:127
+msgid "minute"
+msgstr "minuto"
+
+#: models.py:128
+msgid "hour"
+msgstr "hora"
+
+#: models.py:130
+msgid "day of week"
+msgstr "día de la semana"
+
+#: models.py:133
+msgid "day of month"
+msgstr "día del mes"
+
+#: models.py:136
+msgid "month of year"
+msgstr "mes del año"
+
+#: models.py:140 models.py:207
+msgid "crontab"
+msgstr "crontab"
+
+#: models.py:141
+msgid "crontabs"
+msgstr "crontabs"
+
+#: models.py:199
+msgid "Useful description"
+msgstr "Descripcion útil"
+
+#: models.py:201
+msgid "task name"
+msgstr "nombre de la tarea"
+
+#: models.py:208
+msgid "Use one of interval/crontab"
+msgstr "Usa un intervalo/crontab"
+
+#: models.py:211 models.py:326
+msgid "Arguments"
+msgstr "Argumentos"
+
+#: models.py:212
+msgid "JSON encoded positional arguments"
+msgstr "JSON argumentos posicionados codificados"
+
+#: models.py:215 models.py:327
+msgid "Keyword arguments"
+msgstr "Argumentos de palabra clave"
+
+#: models.py:216
+msgid "JSON encoded keyword arguments"
+msgstr "JSON argumentos de palabra clave codificados"
+
+#: models.py:219
+msgid "queue"
+msgstr "en fila"
+
+#: models.py:220
+msgid "Queue defined in CELERY_QUEUES"
+msgstr "Fila definida en CELERY_QUEUES"
+
+#: models.py:223
+msgid "exchange"
+msgstr "intercambio"
+
+#: models.py:226
+msgid "routing key"
+msgstr "Llave de ruta"
+
+#: models.py:229 models.py:329
+msgid "expires"
+msgstr "expira"
+
+#: models.py:232
+msgid "enabled"
+msgstr "activado"
+
+#: models.py:242
+msgid "description"
+msgstr "descripción"
+
+#: models.py:248
+msgid "periodic task"
+msgstr "tarea periódica"
+
+#: models.py:249
+msgid "periodic tasks"
+msgstr "tareas periódicas"
+
+#: models.py:288
+msgid "hostname"
+msgstr "Nombre de anfitrión"
+
+#: models.py:289
+msgid "last heartbeat"
+msgstr "ultimo latido de corazón"
+
+#: models.py:296 models.py:338
+msgid "worker"
+msgstr "trabajador"
+
+#: models.py:297
+msgid "workers"
+msgstr "trabajadores"
+
+#: models.py:325
+msgid "event received at"
+msgstr "evento recivido en"
+
+#: models.py:330
+msgid "result"
+msgstr "resultado"
+
+#: models.py:333
+msgid "execution time"
+msgstr "tiempo de ejecución"
+
+#: models.py:334
+msgid "in seconds if task succeeded"
+msgstr "en segundos si la tarea es lograda"
+
+#: models.py:336
+msgid "number of retries"
+msgstr "números de reintento"
+
+#: models.py:346
+msgid "task"
+msgstr "tarea"
+
+#: models.py:347
+msgid "tasks"
+msgstr "tareas"
+
+#: templates/admin/djcelery/change_list.html:7
+#: templates/djcelery/confirm_rate_limit.html:6
+msgid "Home"
+msgstr "Casa"
+
+#: templates/djcelery/confirm_rate_limit.html:22
+msgid "Rate limit"
+msgstr "Límite de calificación"

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<h1>SmsAppView</h1>
+
+<table border=1>
+	<thead>
+		<tr>
+			<th>{% trans "id" %}</th>
+			<th>{% trans "text" %}</th>
+			<th>{% trans "total_parts" %}</th>
+			<th>{% trans "quantity_parts" %}</th>
+			<th>{% trans "date" %}</th>
+			<th>{% trans "ref" %}</th>
+			<th>{% trans "phone" %}</th>
+			<th>{% trans "delivered" %}</th>
+			<th>{% trans "url" %}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for item in object_list %}
+			<tr>
+				<td>{{ item.id }}</td>
+				<td>{{ item.text }}</td>
+				<td>{{ item.total_parts }}</td>
+				<td>{{ item.quantity_parts }}</td>
+				<td>{{ item.date }}</td>
+				<td>{{ item.ref }}</td>
+				<td>{{ item.phone }}</td>
+				<td>{{ item.delivered }}</td>
+				<td>{{ item.url }}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+{% endblock content%}

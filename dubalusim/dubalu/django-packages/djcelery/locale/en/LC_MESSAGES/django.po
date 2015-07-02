@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Dubalu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-07-14 12:25-0600\n"
+"Last-Translator: Omar <omar.aburto@gmail.com>\n"
+"Language-Team: Dubalu <contact@dubalu.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: admin.py:51 admin.py:58 models.py:27 models.py:319
+msgid "state"
+msgstr "state"
+
+#: admin.py:65 models.py:328
+msgid "ETA"
+msgstr "ETA"
+
+#: admin.py:72
+msgid "when"
+msgstr "when"
+
+#: admin.py:79 models.py:198 models.py:323
+msgid "name"
+msgstr "name"
+
+#: admin.py:113
+msgid "Task detail"
+msgstr "Task detail"
+
+#: admin.py:114
+msgid "Tasks"
+msgstr "Tasks"
+
+#: admin.py:129 models.py:321
+msgid "UUID"
+msgstr "UUID"
+
+#: admin.py:153
+msgid "Revoke selected tasks"
+msgstr "Revoke selected tasks"
+
+#: admin.py:159
+msgid "Terminate selected tasks"
+msgstr "Terminate selected tasks"
+
+#: admin.py:165
+msgid "Kill selected tasks"
+msgstr "Kill selected tasks"
+
+#: admin.py:172 templates/djcelery/confirm_rate_limit.html:9
+msgid "Rate limit selected tasks"
+msgstr "Rate limit selected tasks"
+
+#: admin.py:185
+msgid "Rate limit selection"
+msgstr "Rate limit selection"
+
+#: admin.py:210
+msgid "Node detail"
+msgstr "Node detail"
+
+#: admin.py:211
+msgid "Worker Nodes"
+msgstr "Worker Nodes"
+
+#: admin.py:218
+msgid "Shutdown selected worker nodes"
+msgstr "Shutdown selected worker nodes"
+
+#: admin.py:222
+msgid "Enable event mode for selected nodes."
+msgstr "Enable event mode for selected nodes."
+
+#: admin.py:227
+msgid "Disable event mode for selected nodes."
+msgstr "Disable event mode for selected nodes."
+
+#: admin.py:257
+msgid "Task (registered)"
+msgstr "Task (registered)"
+
+#: admin.py:259
+msgid "Task (custom)"
+msgstr "Task (custom)"
+
+#: admin.py:271
+msgid "Need name of task"
+msgstr "Need name of task"
+
+#: admin.py:282
+#, python-format
+msgid "Unable to parse JSON: %s"
+msgstr "Unable to parse JSON: %s"
+
+#: humanize.py:10
+#, python-brace-format
+msgid "{num} year ago"
+msgstr "{num} year ago"
+
+#: humanize.py:10
+#, python-brace-format
+msgid "{num} years ago"
+msgstr "{num} years ago"
+
+#: humanize.py:14
+#, python-brace-format
+msgid "{num} month ago"
+msgstr "{num} month ago"
+
+#: humanize.py:14
+#, python-brace-format
+msgid "{num} months ago"
+msgstr "{num} months ago"
+
+#: humanize.py:18
+#, python-brace-format
+msgid "{num} week ago"
+msgstr "{num} week ago"
+
+#: humanize.py:18
+#, python-brace-format
+msgid "{num} weeks ago"
+msgstr "{num} weeks ago"
+
+#: humanize.py:22
+#, python-brace-format
+msgid "{num} day ago"
+msgstr "{num} day ago"
+
+#: humanize.py:22
+#, python-brace-format
+msgid "{num} days ago"
+msgstr "{num} days ago"
+
+#: humanize.py:56 humanize.py:71
+msgid "just now"
+msgstr "just now"
+
+#: humanize.py:62
+#, python-brace-format
+msgid "{minutes} minute ago"
+msgstr "{minutes} minute ago"
+
+#: humanize.py:63
+#, python-brace-format
+msgid "{minutes} minutes ago"
+msgstr "{minutes} minutes ago"
+
+#: humanize.py:68
+#, python-brace-format
+msgid "{seconds} second ago"
+msgstr "{seconds} second ago"
+
+#: humanize.py:69
+#, python-brace-format
+msgid "{seconds} seconds ago"
+msgstr "{seconds} seconds ago"
+
+#: humanize.py:74
+#, python-brace-format
+msgid "{hours} hour ago"
+msgstr "{hours} hour ago"
+
+#: humanize.py:74
+#, python-brace-format
+msgid "{hours} hours ago"
+msgstr "{hours} hours ago"
+
+#: humanize.py:78
+#, python-brace-format
+msgid "yesterday at {time}"
+msgstr "yesterday at {time}"
+
+#: models.py:25
+msgid "task id"
+msgstr "task id"
+
+#: models.py:31
+msgid "done at"
+msgstr "done at"
+
+#: models.py:32 models.py:331
+msgid "traceback"
+msgstr "traceback"
+
+#: models.py:43
+msgid "task state"
+msgstr "task state"
+
+#: models.py:44
+msgid "task states"
+msgstr "task states"
+
+#: models.py:61
+msgid "group id"
+msgstr "group id"
+
+#: models.py:63
+msgid "created at"
+msgstr "created at"
+
+#: models.py:70
+msgid "saved group result"
+msgstr "saved group result"
+
+#: models.py:71
+msgid "saved group results"
+msgstr "saved group results"
+
+#: models.py:83
+msgid "Days"
+msgstr "Days"
+
+#: models.py:84
+msgid "Hours"
+msgstr "Hours"
+
+#: models.py:85
+msgid "Minutes"
+msgstr "Minutes"
+
+#: models.py:86
+msgid "Seconds"
+msgstr "Seconds"
+
+#: models.py:87
+msgid "Microseconds"
+msgstr "Microseconds"
+
+#: models.py:91
+msgid "every"
+msgstr "every"
+
+#: models.py:93
+msgid "period"
+msgstr "period"
+
+#: models.py:97 models.py:204
+msgid "interval"
+msgstr "interval"
+
+#: models.py:98
+msgid "intervals"
+msgstr "intervals"
+
+#: models.py:118
+#, python-brace-format
+msgid "every {0.period_singular}"
+msgstr "every {0.period_singular}"
+
+#: models.py:119
+#, python-brace-format
+msgid "every {0.every} {0.period}"
+msgstr "every {0.every} {0.period}"
+
+#: models.py:127
+msgid "minute"
+msgstr "minute"
+
+#: models.py:128
+msgid "hour"
+msgstr "hour"
+
+#: models.py:130
+msgid "day of week"
+msgstr "day of week"
+
+#: models.py:133
+msgid "day of month"
+msgstr "day of month"
+
+#: models.py:136
+msgid "month of year"
+msgstr "month of year"
+
+#: models.py:140 models.py:207
+msgid "crontab"
+msgstr "crontab"
+
+#: models.py:141
+msgid "crontabs"
+msgstr "crontabs"
+
+#: models.py:199
+msgid "Useful description"
+msgstr "Useful description"
+
+#: models.py:201
+msgid "task name"
+msgstr "task name"
+
+#: models.py:208
+msgid "Use one of interval/crontab"
+msgstr "Use one of interval/crontab"
+
+#: models.py:211 models.py:326
+msgid "Arguments"
+msgstr "Arguments"
+
+#: models.py:212
+msgid "JSON encoded positional arguments"
+msgstr "JSON encoded positional arguments"
+
+#: models.py:215 models.py:327
+msgid "Keyword arguments"
+msgstr "Keyword arguments"
+
+#: models.py:216
+msgid "JSON encoded keyword arguments"
+msgstr "JSON encoded keyword arguments"
+
+#: models.py:219
+msgid "queue"
+msgstr "queue"
+
+#: models.py:220
+msgid "Queue defined in CELERY_QUEUES"
+msgstr "Queue defined in CELERY_QUEUES"
+
+#: models.py:223
+msgid "exchange"
+msgstr "exchange"
+
+#: models.py:226
+msgid "routing key"
+msgstr "routing key"
+
+#: models.py:229 models.py:329
+msgid "expires"
+msgstr "expires"
+
+#: models.py:232
+msgid "enabled"
+msgstr "enabled"
+
+#: models.py:242
+msgid "description"
+msgstr "description"
+
+#: models.py:248
+msgid "periodic task"
+msgstr "periodic task"
+
+#: models.py:249
+msgid "periodic tasks"
+msgstr "periodic tasks"
+
+#: models.py:288
+msgid "hostname"
+msgstr "hostname"
+
+#: models.py:289
+msgid "last heartbeat"
+msgstr "last heartbeat"
+
+#: models.py:296 models.py:338
+msgid "worker"
+msgstr "worker"
+
+#: models.py:297
+msgid "workers"
+msgstr "workers"
+
+#: models.py:325
+msgid "event received at"
+msgstr "event received at"
+
+#: models.py:330
+msgid "result"
+msgstr "result"
+
+#: models.py:333
+msgid "execution time"
+msgstr "execution time"
+
+#: models.py:334
+msgid "in seconds if task succeeded"
+msgstr "in seconds if task succeeded"
+
+#: models.py:336
+msgid "number of retries"
+msgstr "number of retries"
+
+#: models.py:346
+msgid "task"
+msgstr "task"
+
+#: models.py:347
+msgid "tasks"
+msgstr "tasks"
+
+#: templates/admin/djcelery/change_list.html:7
+#: templates/djcelery/confirm_rate_limit.html:6
+msgid "Home"
+msgstr "Home"
+
+#: templates/djcelery/confirm_rate_limit.html:22
+msgid "Rate limit"
+msgstr "Rate limit"
