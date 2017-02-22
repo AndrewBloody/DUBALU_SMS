@@ -1,3 +1,3 @@
 # DUBALU_SMS - App
 
-This is a app to send SMS with python, in django server
+This is an app to send SMS with python, in django server
